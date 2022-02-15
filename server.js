@@ -30,6 +30,10 @@ io.on('connection',(socket)=>{
     socket.on('disconnect',(data)=>{
         socket.broadcast.emit('left',{name:users[socket.id]});
     });
+
+    socket.on('stop',(audio)=>{
+        socket.broadcast.emit('recieve-audio',{name:users[socket.id], audio:audio});
+    });
 });
 
 
