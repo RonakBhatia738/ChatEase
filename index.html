@@ -7,16 +7,20 @@
     <title>LetsChat - Realtime Node Socket.io Chat App</title>
     
     <script defer src="/socket.io/socket.io.js"></script> 
-    <script defer src="/client.js"></script>
+    <script src="https://sdk.amazonaws.com/js/aws-sdk-2.1080.0.min.js"></script>
+
+
+    <script defer  src="/client.js"></script>
+    <script src="https://kit.fontawesome.com/98be9185f7.js" crossorigin="anonymous"></script>
+    
     <link rel="stylesheet" href="CSS/style.css">
     
 </head>
 
 <body>
-    <!-- <audio src="/public/ting.mp3" class="audio"></audio> -->
     <div class="bg"></div>
     <nav>
-        <h1>Welcome to LetsChat App</h1>
+        <h1>Welcome to ChatEase</h1>
     </nav>
 
     <div class="container">
@@ -27,7 +31,9 @@
     <audio id = 'a1' ></audio>
 
     <div class="send">
-        <button class="start" >Start</button>
+        
+       
+        <button class="start">Record</button>
         <button class="stop">Stop</button>
         <form action="#" id="send-container">
             <input type="text" name="messageInp" id="messageInp">
