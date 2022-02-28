@@ -6,9 +6,9 @@ const aws = require('aws-sdk');
 aws.config.region = 'us-east-1';
 const S3_BUCKET = process.env.S3_BUCKET_NAME;
 // aws.config.update({
-//     "region" : 'us-east-1',
-//     accessKeyId: "AKIAR7IJKZ2C7QRUWL5O",
-//     secretAccessKey: "Ocx91/sG7U6OwReYm8gPiODpyja52EGxWFR3YWjG",
+//     "region" : 'YOUR REGION',
+//     accessKeyId: "YOUR AWS ACCESS KEY",
+//     secretAccessKey: "YOUR AWS SECRET ACCESS KEY",
 // })
 
 // Creating server socket.io
@@ -24,7 +24,7 @@ const { url } = require("inspector");
 const assembly = axios.create({
     baseURL: "https://api.assemblyai.com/v2",
     headers: {
-        authorization: "a20a76b408d4417a9fe398cf96099e07",
+        authorization: "YOUR-API-TOKEN",
         "content-type": "application/json",
         "transfer-encoding": "chunked",
     },
