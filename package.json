@@ -19,6 +19,6 @@
     "express": "^4.17.2",
     "ffmpeg": "0.0.4",
     "socket.io": "^4.4.1",
-    "socket.io-client": "^4.4.1"
+    "socket.io-client": "^4.7.1"
   }
 }
