@@ -13,7 +13,7 @@
   "author": "Ronak Bhatia",
   "license": "ISC",
   "dependencies": {
-    "aws-sdk": "^2.1078.0",
+    "aws-sdk": "^2.1454.0",
     "axios": "^0.26.0",
     "dotenv": "^16.0.0",
     "express": "^4.17.2",
